@@ -12,7 +12,7 @@ For centos 7:
 compile:
 -------------
 	protoc -I=. --cpp_out=. package.proto
-        mkdir build
+	mkdir build
 	cd build
 	cmake ..
 	make
