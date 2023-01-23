@@ -1,0 +1,12 @@
+syntax = "proto3";
+package ProtoMessage;
+
+message Package {
+  int32 id = 1;
+  string filename = 2;
+  string md5 = 3;
+  optional bytes content = 4;
+}
+
+
+
